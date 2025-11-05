@@ -1,0 +1,19 @@
+# git
+alias gs='git status -sb'
+alias ga='git add -A'
+alias gc='git commit -m'
+alias gp='git push'
+alias gl='git log --oneline --graph --decorate -n 30'
+alias gco='git checkout'
+alias gcm='git checkout main'
+alias gb='git switch -c'
+
+# python / fastapi
+alias py='python3'
+alias serve='python3 -m http.server 8000'
+alias fastapi='uvicorn backend.main:app --reload --port 8000'
+
+# node / frontend
+alias ni='npm ci'
+alias nb='npm run build --prefix frontend'
+alias nd='npm run dev --prefix frontend'
